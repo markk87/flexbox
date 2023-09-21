@@ -1,5 +1,4 @@
 body {
-    display: flex;
     background-color: red;
     font-size: 10px;
     box-sizing: border-box;
@@ -18,15 +17,16 @@ body {
     align-items: center;
     width: 27vw;
     height: 30vw;
-    display: flex;
     align-items: center;
     background-color: rgba(120, 120, 120, 0.6);
     margin-bottom: 5%;
+    margin: 5% 2.5%;
     border: 3px solid black;
     
 }
 .card-img {
     width: 100%;    
+    border: 3px solid black;
 }
 .card-title {
     font-size: 2.2rem;
